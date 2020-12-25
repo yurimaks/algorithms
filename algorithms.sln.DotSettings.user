@@ -4,5 +4,6 @@
     &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task7_Reverse_Integer&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task9_Palindrome_Number.Run&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task9_Palindrome_Number&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task13.Run&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
