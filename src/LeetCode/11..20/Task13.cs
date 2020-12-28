@@ -62,8 +62,7 @@ namespace LeetCode
                 {
                     doSubtract = DoSubtract(s, n, 'D', 'M');
                 }
-
-
+                
                 result += doSubtract ? -1 * roman[s[n]] : roman[s[n]];
                 n++;
             }
