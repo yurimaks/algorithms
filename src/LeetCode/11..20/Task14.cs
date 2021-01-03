@@ -18,7 +18,7 @@ namespace LeetCode
         [InlineData(new[] {"dog","racecar","car"}, "")]
         public void Run(string[] input, string expected)
         {
-            var actual = LongestCommonPrefix_2(input);
+            var actual = LongestCommonPrefix_3(input);
             Assert.Equal(expected, actual);
         }
 
@@ -37,6 +37,41 @@ namespace LeetCode
 
             return prefix;
         }
+        
+        //Divide and conquer
+        public string LongestCommonPrefix_3(string[] strs)
+        {
+            if (strs?.Length == 0) return "";
+            return LongestCommonPrefix(strs, 0, strs.Length - 1);
+        }
+
+        public string LongestCommonPrefix(string[] strs, int l, int r)
+        {
+            if (l == r)
+            {
+                return strs[l];
+            }
+
+            int mid = (l + r) / 2;
+            string left = LongestCommonPrefix(strs, 0, mid);
+            string right = LongestCommonPrefix(strs, mid + 1, r);
+            return CommonPrefix(left, right);
+        }
+
+        public string CommonPrefix(string left, string right)
+        {
+            int min = Math.Min(left.Length, right.Length);
+            for (int i = 0; i < min; i++)
+            {
+                if (left[i] != right[i])
+                {
+                    return left.Substring(0, i);
+                }
+            }
+
+            return left.Substring(0, min);
+        }
+        
         
         //My solution
         public string LongestCommonPrefix(string[] strs)

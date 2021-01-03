@@ -51,6 +51,5 @@ namespace LeetCode
 
             return charsSet.Count == 0;
         }
-        
     }
 }
