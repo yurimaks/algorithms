@@ -5,6 +5,7 @@ using Xunit;
 
 namespace LeetCode._31._40
 {
+    //https://www.geeksforgeeks.org/run-length-encoding/
     public class Task38
     {
         [Theory]
@@ -14,6 +15,14 @@ namespace LeetCode._31._40
         [InlineData(1, "1")]
         public void Run(int input, string expected)
         {
+            var d = "ioztxbipnnifjlfsfbegmenhntnkhctwfgpiglmxbegdbqovfadyftsvetnrhuxalkhgavujzsgmjkjdeasuhqdcxpihiftqwyplxpmybkgtncknhlyiaplxoisfaorhmntonlriescstjbrpfsylkgedibuyjtrpvmhqztsyxepxmyfifxzdxwsttghcjpudtpbfezwegifschvduwhfgwadkheuiwqnbynmzwuwppkllgvrvsyoxztthnqwprqsurapapjqbwhttyuvsimszdtmzrpdiedvirsztuuvrww";
+            var b = System.Text.Encoding.ASCII.GetBytes(d);
+            var dd = System.Text.Encoding.ASCII.GetString(b);
+            
+            string str = "abcdefghij";
+
+            var t = str.Length * sizeof(char);
+            
             var actual = CountAndSay(input);
             Assert.Equal(expected, actual);
         }
