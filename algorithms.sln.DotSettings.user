@@ -1,16 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=69b4278a_002D1294_002D4192_002Daf4b_002Da4404bebb46a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Run" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a911ef71_002D7814_002D4533_002Db925_002D46dfc501e7a1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AmazonMergeSortedArray" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._101._110.Task104&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._101._110.Task110.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._961._970.Task961&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task23.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task19.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode.Task657.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._981._990.Task985&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._141._150.Task141.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._81._90.Task83.Run&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._201._210.Task203.Run&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC56E82B-0800-4D1D-9AA2-3786111B97DA::.NETCoreApp,Version=v3.1::Althorithms.AmazonMergeSortedArray&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
