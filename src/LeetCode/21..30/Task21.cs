@@ -21,8 +21,7 @@ namespace LeetCode
             var l2 = input2.MakeLinkedList();
 
             var mergedListNode = MergeTwoLists(l1, l2);
-            var actual = LinkedListToArray(mergedListNode);
-            Assert.Equal(expected, actual);
+            Assert.Equal(expected, mergedListNode.MakeArrayFromLinkedList());
         }
         
         private ListNode MergeTwoLists(ListNode l1, ListNode l2)
@@ -61,51 +60,8 @@ namespace LeetCode
             {
                 tail.next = current2;
             }
-            
-            
-            
-            // while ((current1 != null || current2 != null) && tail.next == null)
-            // {
-            //     if (current1 != null && current2 != null)
-            //     {
-            //         if (current1.val <= current2.val)
-            //         {
-            //             tail.next = new ListNode(current1.val);
-            //             tail.next.next = new ListNode(current2.val);
-            //             tail = tail.next.next;
-            //         }
-            //         else if (current1.val > current2.val)
-            //         {
-            //             tail.next = new ListNode(current2.val);
-            //             tail.next.next = new ListNode(current1.val);
-            //             tail = tail.next.next;
-            //         }
-            //     }
-            //     else
-            //     {
-            //         tail.next = current1 != null ? new ListNode(current1.val) : new ListNode(current2.val);
-            //         tail = tail.next;
-            //     }
-            //     
-            //     current1 = current1?.next;
-            //     current2 = current2?.next;
-            // }
 
             return headCommon.next;
-        }
-
-
-        private static int[] LinkedListToArray(ListNode listNode)
-        {
-            var ints = new List<int>();
-            var p = listNode;
-            while (p != null)
-            {
-                ints.Add(p.val);
-                p = p.next;
-            }
-
-            return ints.ToArray();
         }
     }
 }

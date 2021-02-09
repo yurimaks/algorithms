@@ -37,6 +37,7 @@ namespace LeetCode._81._90
             Assert.Equal(actual, expected);
         }
 
+        //Zimin words , 1, 121
         public IList<IList<int>> Generate(int numRows)
         {
             IList<IList<int>> triangle = new List<IList<int>>();

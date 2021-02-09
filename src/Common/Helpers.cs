@@ -1,4 +1,8 @@
-﻿namespace Common
+﻿using System;
+using System.Collections.Generic;
+using Xunit.Abstractions;
+
+namespace Common
 {
     public static class Helpers
     {
@@ -14,6 +18,27 @@
             }
 
             return l;
+        } 
+        
+        public static int[] MakeArrayFromLinkedList(this ListNode listNode)
+        {
+            var ints = new List<int>();
+            var p = listNode;
+            while (p != null)
+            {
+                ints.Add(p.val);
+                p = p.next;
+            }
+
+            return ints.ToArray();
+        }
+        
+        public static void OutputInConsole(this int[] array, ITestOutputHelper output)
+        {
+            for (int j = 0; j < array.Length; j++)
+            {
+               output.WriteLine(array[j].ToString());
+            }
         } 
     }
 }

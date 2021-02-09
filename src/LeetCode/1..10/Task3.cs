@@ -25,21 +25,23 @@ namespace LeetCode
         {
             int n = s.Length;
             HashSet<char> set = new HashSet<char>();
-            int ans = 0, start = 0, end = 0;
+            
+            int result = 0, start = 0, end = 0;
             while (start < n && end < n)
             {
-                // try to extend the range [i, j]
                 if (!set.Contains(s[end]))
                 {
-                    set.Add(s[end++]);
-                    ans = Math.Max(ans, end - start);
+                    set.Add(s[end]);
+                    end++;
+                    result = Math.Max(result, end - start);
                 }
                 else
                 {
-                    set.Remove(s[start++]);
+                    set.Remove(s[start]);
+                    start++;
                 }
             }
-            return ans;
+            return result;
         }
 
         private static int LengthOfLongestSubstring_3(string s)

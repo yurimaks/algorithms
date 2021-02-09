@@ -18,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Althorithms\Althorithms.csproj" />
       <ProjectReference Include="..\Common\Common.csproj" />
     </ItemGroup>
 
