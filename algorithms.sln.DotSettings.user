@@ -5,5 +5,17 @@
     &lt;TestId&gt;xUnit::EC56E82B-0800-4D1D-9AA2-3786111B97DA::.NETCoreApp,Version=v3.1::Althorithms.AmazonMergeSortedArray&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f4020e08_002Ddac4_002D406c_002D8277_002Ddf617460c700/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Run" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC56E82B-0800-4D1D-9AA2-3786111B97DA::.NETCoreApp,Version=v3.1::Althorithms.ReversNumber.Run&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f953db36_002D46e8_002D4a2a_002Dbc6f_002D889f8b62047b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Run" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._81._90.Task88.Run&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F7B48F65-C900-499F-857C-28AD2ABC2E96::.NETCoreApp,Version=v3.1::LeetCode._81._90.Task118.Run&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EC56E82B-0800-4D1D-9AA2-3786111B97DA::.NETCoreApp,Version=v3.1::Althorithms.ReversNumber&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	
 	</wpf:ResourceDictionary>
